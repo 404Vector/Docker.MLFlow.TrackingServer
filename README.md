@@ -18,6 +18,20 @@ docker images | grep mlflow
 
 ## Run docker container
 
-```base
+```bash
 docker run --name mlflow -p 5000:5000 -v $(pwd):/mlflow --rm mlflow:1.30
+```
+
+## Run Example Project
+
+- init directory
+
+```bash
+pipenv install --dev
+```
+
+- run example project
+
+```base
+pipenv run mlflow run ./example_project --experiment-name "my-first-experiment" --no-conda
 ```
