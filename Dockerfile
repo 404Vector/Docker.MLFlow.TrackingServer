@@ -1,4 +1,4 @@
-FROM python:3.11-alpine
+FROM python:3.11.0
 
 COPY requirements.txt mlflow/requirements.txt
 WORKDIR mlflow
