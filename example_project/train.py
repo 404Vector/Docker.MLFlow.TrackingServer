@@ -11,7 +11,6 @@ import mlflow.sklearn
 
 if __name__ == "__main__":
     mlflow.sklearn.autolog()
-
     X = np.array([-2, -1, 0, 1, 2, 1]).reshape(-1, 1)
     y = np.array([0, 0, 1, 1, 1, 0])
 
@@ -19,7 +18,7 @@ if __name__ == "__main__":
 
     with mlflow.start_run() as run:
         lr.fit(X, y)
-
+        
     score = lr.score(X, y)
     print("Score: %s" % score)
    
