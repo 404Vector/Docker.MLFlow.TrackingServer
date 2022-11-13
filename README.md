@@ -10,6 +10,12 @@
 docker build -t mlflow:1.30 .
 ```
 
+## Display docker image list
+
+```bash
+docker images | grep mlflow
+```
+
 ## Run docker container
 
 ```base
