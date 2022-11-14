@@ -19,11 +19,11 @@ if __name__ == "__main__":
     with mlflow.start_run() as run:
         lr.fit(X, y)
 
-    log_param("solver", sys.argv[1])
-    log_param("penalty", sys.argv[2])
-    log_param("l1_ratio", sys.argv[3])
+        log_param("solver", sys.argv[1])
+        log_param("penalty", sys.argv[2])
+        log_param("l1_ratio", sys.argv[3])
 
-    score = float(lr.score(X, y))
-    log_metric("score", score)
-    print("Score: %s" % score)
+        score = float(lr.score(X, y))
+        log_metric("score", score)
+        print("Score: %s" % score)
    
