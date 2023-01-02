@@ -1,4 +1,4 @@
-FROM python:3.10
+FROM python:3.10.9
 
 # app 디렉토리 생성
 RUN mkdir -p /mlflow
