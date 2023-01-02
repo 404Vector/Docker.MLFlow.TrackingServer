@@ -1,13 +1,13 @@
 # Docker.MLFlow
 
-- Repository for building mlflow 1.30 docker image
+- Repository for building mlflow 2.1.1 docker image
 
 ## build docker image
 
 - base image : [python:3.11.0](<https://hub.docker.com/layers/library/python/3.11.0/images/sha256-c43926b6865b221fb6460da1e7e19de3143072fc6be8b64cb1e679f90c7fcaa3?context=explore>)
 
 ```bash
-docker build -t mlflow:1.30 .
+docker build -t mlflow:2.1.1 .
 ```
 
 ## Display docker image list
@@ -19,7 +19,7 @@ docker images | grep mlflow
 ## Run docker container
 
 ```bash
-docker run --name mlflow -p 5000:5000 -v $(pwd):/mlflow --rm mlflow:1.30
+docker run --name mlflow -p 15000:5000 -v $(pwd):/mlflow --rm mlflow:2.1.1
 ```
 
 ## Run Example Project
