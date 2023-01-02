@@ -4,7 +4,7 @@
 
 ## build docker image
 
-- base image : [python:3.11.0](<https://hub.docker.com/layers/library/python/3.11.0/images/sha256-c43926b6865b221fb6460da1e7e19de3143072fc6be8b64cb1e679f90c7fcaa3?context=explore>)
+- base image : [python:3.10.9](<https://hub.docker.com/layers/library/python/3.10.9/images/sha256-08dfb526b02f1b849ca4ce479b51f100448053a67b64905a63dcdad2fe6802c5?context=explore>)
 
 ```bash
 docker build -t mlflow:2.1.1 .
