@@ -18,4 +18,4 @@ RUN apt-get update && \
 EXPOSE 5000
 
 # cmd
-CMD ["mlflow", "server", "--backend-store-uri", "sqlite:///mlflow.db", "--default-artifact-root", "$(pwd)/artifacts"]
+CMD ["mlflow", "server", "-h", "0.0.0.0", "--backend-store-uri", "sqlite:///mlflow.db", "--default-artifact-root", "$(pwd)/artifacts"]
