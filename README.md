@@ -1,6 +1,6 @@
 # Docker.MLFlow
 
-- Repository for building mlflow 2.1.1 docker image
+- Repository for building mlflow 2.1.1 Tracking Server docker image
 
 ## build docker image
 
