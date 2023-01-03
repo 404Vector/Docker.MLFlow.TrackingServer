@@ -1,8 +1,6 @@
 # Docker.MLFlow.TrackingServer
 
-- 이 저장소는 MLFlow TrackingServer Docker Image를 만들 수 있도록 Dockerfile을 제공합니다.
-
-- Repository for building mlflow 2.1.1 Tracking Server docker image
+이 저장소는 MLFlow TrackingServer Docker Image를 만들 수 있도록 Dockerfile을 제공합니다.
 
 ## build docker image
 
