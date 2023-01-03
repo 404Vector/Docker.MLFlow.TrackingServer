@@ -1,8 +1,8 @@
 # Docker.MLFlow.TrackingServer
-
 이 저장소는 MLFlow TrackingServer Docker Image를 만들 수 있도록 Dockerfile을 제공합니다.
 
-## build docker image
+
+## Build docker image
 
 - base image : [python:3.10.9](<https://hub.docker.com/layers/library/python/3.10.9/images/sha256-08dfb526b02f1b849ca4ce479b51f100448053a67b64905a63dcdad2fe6802c5?context=explore>)
 
